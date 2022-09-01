@@ -1,0 +1,12 @@
+﻿<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+	<ribbon>
+		<tabs>
+			<tab idMso="TabView">
+				<group id="GroupAlignGrid" label="図形">
+					<button id="ButtonAlignGrid" imageMso="SizeToGridAccess" label="グリッド線に揃える" onAction="グリッド線に揃える_onAction" getEnabled="グリッド線に揃える_getEnabled" screentip="グリッド線に揃える" supertip="図形をグリッド線に揃えます。図形が選択されていない場合はすべての図形を揃えます。揃えた結果、位置を変更した図形があれば選択します。" showImage="true" size="large" showLabel="true" visible="true" />
+					<button id="ButtonOneSideConnector" imageMso="VisioAngledConnector" label="片側接続のコネクタ" onAction="片側接続のコネクタ_onAction" getEnabled="片側接続のコネクタ_getEnabled" screentip="片側接続のコネクタ" supertip="片側接続のコネクタを探して選択します。" showImage="true" size="large" showLabel="true" visible="true" />
+				</group>
+			</tab>
+		</tabs>
+	</ribbon>
+</customUI>
