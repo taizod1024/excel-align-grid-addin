@@ -1,6 +1,6 @@
 # excel-align-grid-addin
 
-Excelの図形をグリッドに揃えるアドイン
+Excelの図形をグリッド線に揃えるアドイン
 
 ## 使い方
 
